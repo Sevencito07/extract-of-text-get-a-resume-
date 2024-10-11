@@ -2,7 +2,7 @@ const express = require('express');
 const OpenAI= require('openai');
 const cors = require('cors');  
 const openai = new OpenAI({
-    apiKey: "sk-HifFhr6qcyrnsZNG8xtNjPaOueJUUrYPMI8Hhx6nfWT3BlbkFJ9ZFq6WME_BmSDrvDrIM2QN7EDO8q-TQPYWUo6atIUA",
+    apiKey: "",
   });
 
 
