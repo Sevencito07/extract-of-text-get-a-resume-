@@ -1,0 +1,69 @@
+body{
+  margin: 0;
+  display: grid;
+  place-content: center;
+  background-color: aliceblue;
+}
+.main{
+  display: grid;
+  width: 100%;
+  height: auto;
+  place-content: center;
+  place-items: center;
+}
+.textContainer{
+  display: grid;
+  width: 80%;
+  height: auto;
+  place-content: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+
+code{
+ display: grid;
+
+  color: rgba(47, 245, 47, 0.815);
+
+ 
+}
+textarea{
+ height: 7rem;
+}
+
+.cmdContainer{
+  background-color: rgb(35, 35, 36);
+  width: 80%;
+  height: auto;
+  margin-bottom: 1rem;
+  padding:7px ;
+  place-content: center;
+  text-align: center;
+  border-radius: 7px;
+  text-align: center;
+}
+.theoryContainer{
+  background-color: rgb(35, 35, 36);
+  width: 80%;
+  height: auto;
+  padding:7px ;
+  color: aliceblue;
+  border-radius: 7px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+
+}
+button{
+  background-color:  rgba(40, 212, 40, 0.815);
+  border-radius: 5px;
+  border-style: none;
+  width: 100%;
+  height: 2rem;
+  color: rgba(29, 37, 41, 0.884);
+}
+button:hover{
+  background-color: rgba(47, 245, 47, 0.815);
+}
